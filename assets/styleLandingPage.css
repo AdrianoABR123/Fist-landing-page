@@ -1,0 +1,173 @@
+@import url("fontTextStyle.css");
+
+html, body{
+  margin: 0;
+  min-height: 100%;
+  min-width: 100%;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vw;
+}
+
+*{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+#menu{
+  width: 100%;
+  position: fixed;
+  left: 0;
+  background-color: blueviolet;
+}
+
+#menu h1{
+  font-family: 'Noto Sans Display';
+  font-size: 30px;
+  float: left;
+  margin-right: 36%;
+}
+
+#menu ul{
+  list-style: none;
+  margin-top: 15px;
+}
+
+#menu ul li a:hover{
+  background-color: #fff;
+  color:#000;
+}
+
+
+#menu ul li a{
+  font-family: sans-serif;
+  color:white;
+  text-decoration: none;
+  font-size: 20px; 
+  padding: 40px; 
+  transition: all 300ms ease;
+}
+
+#menu ul li{
+  display: block;
+  float: left;
+  margin-top: 14px;
+}
+#home{
+  margin-top: 84px;
+  padding-bottom: 50px;
+  background-image: linear-gradient(#000, #fff);
+}
+
+.introducion{
+  margin-left: 30%;
+  margin-right: 30%;
+  font-family: 'Noto Sans Display';
+  font-size: 18px;
+  color:#fff;
+  word-wrap: break-word;
+  text-align: justify;
+}
+.introducion h2{
+  text-align: center;
+}
+
+#pessoas h2{
+  display: block;
+  font-family: 'Noto Sans Display';
+  color:#fff;
+  text-align: center;
+  font-size: 36px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
+}
+
+.nav-introducion{
+  display: inline-block; 
+  background-image: linear-gradient(#000, #aaa);
+  text-align: center;
+  font-family: 'Noto Sans Display';
+  color: #fff;
+  width: 250px;
+  height: 300px;
+}
+
+#ajusteLeft{
+  margin-left: 24%;
+}
+
+.nav-introducion img{
+  width: 60%;
+  height: 60%;
+}
+
+.sessao{
+  width: 100vw;
+  height: 70vw;
+}
+.div_sessao{
+  margin-top: 8%;
+  font-family: 'Noto Sans Display';
+  font-size: 20px;
+  height: 40%;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: justify;
+  color:#fff;
+  word-wrap: break-word;
+}
+.div_sessao p{
+  display: block;
+  right: 60%;
+}
+
+.div_sessao h1{
+  text-align: center;
+  font-size: 36px;
+}
+.div_sessao img{
+  display: block;
+  margin-left: 21%;
+  height: 70%;
+  width: 55%;
+}
+#elvis .div_sessao img{
+  margin-left: 23%;
+}
+
+#loyd .div_sessao img{
+  margin-left: 21%;
+  height: 70%;
+  width: 60%;
+}
+
+#adriano{
+  background-image: linear-gradient(250deg, #aa0000, #550000);
+}
+#arthur{
+  background-image: linear-gradient(to bottom right, #000, #cd9d0a) ;
+}
+#elvis{
+  background-image: linear-gradient(to bottom left, #772877, #220b22);
+}
+#loyd{
+  background-image: linear-gradient(to bottom right, #800080, rgba(0,0,255, 0.595));
+}
+
+.rodape{
+  font-family: 'Noto Sans Display';
+  font-size: 13px;
+  text-align: center;
+  color:#fff;
+  height: 4vw;
+  width: 100vw;
+  background-color: #212f3d;
+}
