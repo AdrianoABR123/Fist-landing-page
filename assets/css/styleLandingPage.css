@@ -234,7 +234,7 @@ h6 {
 }
 /*Parte do rodapé*/
 /*Parte do media querie*/
-@media (max-width: 1770px) and (min-width: 1400px){
+@media (max-width: 1770px) and (min-width: 1350px){
     #menu h1{
       font-size: 26px;
       margin-left: 1.5vw;
