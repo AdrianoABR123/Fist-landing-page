@@ -233,3 +233,42 @@ h6 {
   color: #fff;
 }
 /*Parte do rodapé*/
+/*Parte do media querie*/
+@media (max-width: 1770px) and (min-width: 1400px){
+    #menu h1{
+      font-size: 26px;
+      margin-left: 1.5vw;
+      margin-top: 1.8vw;
+    }
+    #menu ul li{
+      width: 20%;
+    }
+    #menu ul li a{
+      font-size: 1.2vw;
+    }
+    /*parte menu*/
+    /*Parte introdução*/
+    .introducion {
+      margin-top: 8%; 
+      width: 43.5vw;
+    }
+    .introducion h2{
+      font-size: 1.5vw;
+    }
+    .introducion p{
+      font-size: 1.2vw;
+    }
+    .nav-introducion h3{
+      font-size: 1.5vw;
+    }
+    .nav-introducion{
+      height: 20vw;
+      width: 15vw;
+      padding: 0.5vw;
+    
+    }
+    .nav-introducion img {
+      width: 10vw;
+      height: 15vw;
+    }
+}
