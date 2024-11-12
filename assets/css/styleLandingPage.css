@@ -112,6 +112,16 @@ h6 {
   margin-top: 1%;
   justify-content: space-around;
 }
+.mobile-menu{
+  display: none;
+  cursor: pointer;
+}
+.mobile-menu div{
+  width: 32px;
+  height: 2px;
+  background-color: #fff;
+  margin: 8px;
+}
 
 .nav-introducion h3 {
   font-size: 20px;
@@ -152,8 +162,8 @@ h6 {
   justify-content: center;
   color: #fff;
   font-size: 16px;
-  width: 70%;
-  height: 70%;
+  min-width: 70%;
+  min-height: 70%;
   padding: 5%;
 
 }
@@ -166,7 +176,7 @@ h6 {
 
 .div_sessao p {
   text-align: justify;
-  width: 600px;
+  width: 650px;
   height: 350px;
 }
 
@@ -192,7 +202,14 @@ h6 {
 
 #arthur_content {
   background-image: linear-gradient(to bottom right, #000, #cd9d0a);
-  padding-bottom: 0.5%;
+}
+#arthur_content p{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+  height: 250px;
 }
 
 /*Parte do arthur(cara de cu)*/
@@ -234,41 +251,63 @@ h6 {
 }
 /*Parte do rodapé*/
 /*Parte do media querie*/
-@media (max-width: 1770px) and (min-width: 1350px){
-    #menu h1{
-      font-size: 26px;
-      margin-left: 1.5vw;
-      margin-top: 1.8vw;
-    }
-    #menu ul li{
-      width: 20%;
-    }
-    #menu ul li a{
-      font-size: 1.2vw;
-    }
-    /*parte menu*/
-    /*Parte introdução*/
-    .introducion {
-      margin-top: 8%; 
-      width: 43.5vw;
-    }
-    .introducion h2{
-      font-size: 1.5vw;
-    }
-    .introducion p{
-      font-size: 1.2vw;
-    }
-    .nav-introducion h3{
-      font-size: 1.5vw;
-    }
-    .nav-introducion{
-      height: 20vw;
-      width: 15vw;
-      padding: 0.5vw;
-    
-    }
-    .nav-introducion img {
-      width: 10vw;
-      height: 15vw;
-    }
+/*mobile*/
+@media (max-width: 576px) {
+  #menu{
+    height: 8vh;
+  }
+  #menu ul{
+    position:absolute;
+    top: 8vh;
+    right: 0;
+    width: 50vw;
+    height: 92vh;
+    background: #612E76;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
 }
+/*tablets*/
+@media (min-width: 577px) and (max-width: 768px) {
+  #menu{
+    height: 8vh;
+  }
+  #menu ul{
+    position:absolute;
+    top: 8vh;
+    right: 0;
+    width: 50vw;
+    height: 92vh;
+    background: #612E76;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+/*Dispositivos médios*/
+@media (min-width: 769px) and (max-width: 992px) {
+  #menu{
+    height: 8vh;
+  }
+  #menu ul{
+    position:absolute;
+    top: 8vh;
+    right: 0;
+    width: 50vw;
+    height: 92vh;
+    background: #612E76;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+/*Laptops e desktops pequenos*/
+@media (min-width: 993px) and (max-width: 1200px) {
+
+}
+/*Desktops Médios e Grandes*/
+@media (min-width: 1201px) and (max-width: 1400px) {
+
+}
+
